@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculador</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="paulo.js" defer></script>
+
+</head>
+
+<body>
+
+    <form>
+        <h1>calculadora</h1><BR></BR>
+
+        <label>valor1</label>
+       <input type="number" id="valor1"> <br></br>
+
+     
+        <label>valor2</label>
+       <input type="number" id="valor2"><br>
+       
+
+
+       <select id="operacao">
+        <option value="+">soma</option>
+        <option value="-">subtrair</option>
+        <option value="/">dividir</option>
+        <option value="*">multiplicar</option>
+       </select>
+
+        
+        <button type="button" onclick="calcular()">calcular</button> <br><br>
+
+
+
+        <label>resultado</label>
+        <span id="cxbResultado">-</span>
+    </form>
+
+
+
+
+</body>
+
+</html>

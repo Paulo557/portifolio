@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    src: url('../fonts/NIRTIERY\ QUENTIN.otf');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+
+    background: url(https://img1.picmix.com/output/pic/normal/8/6/4/3/11313468_b6766.gif) center no-repeat;
+    height: 100vh;
+    background-size: cover;
+
+    display: grid;
+    place-items: center;
+}
+
+h1{
+    /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+   
+    font-size: 4rem;
+    position: absolute;
+    top: 10%;
+    text-shadow: 2px 2px crimson;
+}
+
+.relogio{
+    background: transparent;
+    width: 90%;            
+    padding: 2% 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 8px 10px #914aeea4;
+}
+
+
+.relogio div {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    letter-spacing: 3px;
+    background: #63a5f0d5;
+    box-shadow: 5px 5px rgb(27, 25, 26);
+    margin: 2%;
+    padding: 2%;

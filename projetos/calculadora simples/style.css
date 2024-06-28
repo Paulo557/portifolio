@@ -1,0 +1,53 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-align: center;
+    
+    }
+
+    body{background: #aa8686;
+
+    }
+     
+    h1{
+    
+        background-color: rgb(241, 199, 9);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+    }
+    
+    label{
+    
+        background: #fff;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        
+    }
+    
+    form button{
+    
+        background-color: rgb(230, 220, 220);
+        text-align:center;
+        box-shadow: 22px;
+        
+        
+    }
+    
+    form{
+    
+        background-color: rgb(97, 131, 131);
+        width: 100%;
+        height: 100%;
+        /* text-align: center; */
+        
+    }
+    
+        input{
+    
+    width: 20vh;
+    height: 3.0vh;
+    
+        }
+    
+       
